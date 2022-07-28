@@ -10,3 +10,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo {
+
+    background-color: black;
+    width: 150px;
+    height: 400px;
+    border: solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+border-radius: 10px;
+}
+
+
+
+.rojo {
+    background-color:#6f1b23;
+    width: 100px;
+    height: 100px;
+        border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+.amarillo {background-color:#8c6902;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;}
+.verde {
+    background-color:#044728;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;        
+    }
+
+    .rojo.active {
+        background-color:#dc3545;
+        width: 100px;
+        height: 100px;
+            border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+        -webkit-box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+        -moz-box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+    }
+    .amarillo.active {background-color:#ffc107;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+        -webkit-box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+        -moz-box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);}
+    .verde.active {
+        background-color:#21b36f;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;   
+        box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+        -webkit-box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);
+        -moz-box-shadow: 0px 0px 14px 8px rgba(232,237,15,0.59);     
+        }
